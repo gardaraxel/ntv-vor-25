@@ -18,4 +18,6 @@ void main(List<String> arguments) {
   print(birthDate);
   String email = "GunnArGeir@nTv.is";
   print(email.toLowerCase());
+
+
 }
