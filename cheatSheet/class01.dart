@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:ntv_vor_25/methods.dart';
 void main(List<String> arguments) {
   /*
@@ -7,6 +9,8 @@ void main(List<String> arguments) {
     Store Message and Name in seperate variable.
    */
 
+
+
   /* 1. Find a quote from a famous person you admire. Print the quote and the name of its
   author. Your output should look something like the following, including the
   quotation marks:
@@ -14,16 +18,20 @@ void main(List<String> arguments) {
   anything new.'
   */
 
+
+
   /*
     2. Assign a message to a variable, and print that message. Then change the value of
   the variable to a new message, and print the new message.
    */
 
+
+
   /*
     3.  Remove all the spaces from the rhyme. And print the modified rhyme.
    */
-  String NureseryRyhme = "Eena, meena, mina, mo, Catch a mouse by the toe; If he squeals let him go, Eeena, meena, mina, mo.";
   /*
+
    4. Prompt a user for their full name (first name and last name)
     1. Store the users entry.
     2. Display the users entry with every letter being capitalised.
@@ -32,6 +40,8 @@ void main(List<String> arguments) {
     first letter, and the other letters being lowercase.
    */
 
+
+
   /*
     5. Display the following SSN on the correct Format:
       F.x. 2006892409
@@ -39,6 +49,16 @@ void main(List<String> arguments) {
   String SSN1 = "200689-2409";
   String SSN2 = "200689 2409";
   String SSN3 = "2 006 8924 09";
+
+  String formattedSSN1 = SSN1.replaceAll('-', '');
+  String formattedSSN2 = SSN2.replaceAll(' ', '');
+  String formattedSSN3 = SSN3.replaceAll(' ', '');
+
+  print(formattedSSN1);
+  print(formattedSSN2);
+  print(formattedSSN3);
+
+
   /*
   Bónus task calculate the age from the SSN.
   ADFASDAS
