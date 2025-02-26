@@ -38,7 +38,7 @@ void main(){
   // "i love eating hawaiian pizza"
 
   for(String pizza in pizzas){
-    print("I love eating $pizza pizza");
+    print("I love eating $pizza pizza pizza");
   }
 
 
