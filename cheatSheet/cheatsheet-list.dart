@@ -1,58 +1,45 @@
 
-void main(){
-
-  /*
+void main() {
   // create a list
-  List names = ['john', 'hjalti', 'sveppi krull', 'gunnar'];
-  print(names);
-  // change an item in a list
+  List<int> myList = [1, 2, 3, 4, 5];
 
-  names[0] = 'jón';
-  print(names);
+  // change an item in a l
+
   // add to a list
 
-  names.add('Einar');
-  print(names);
+myList.add(6);
 
   // add multiple
-  names.addAll(['inga sæland', 'kristrún frosta', 'Togga']);
-  print(names);
+  myList.addAll([2,3,4,5]);
+  print(myList);
+
 
   // insert at a specific location
-  names.insert(4, 'Bjarni ben');
-  print(names);
+  myList.insert(2, 66);
+  print(myList);
 
   // insert many
-  names.insertAll(2, [1,2,30]);
-  print(names);
+  myList.insertAll(0, [9,9,9,9]);
+  print(myList);
+
 
   // remove
-  print(names);
+  myList.remove(9);
+  print(myList);
+
   // remove at
-  print(names);
-
-  int bjarnibenIndex = names.indexOf('Bjarni ben');
-  print(bjarnibenIndex);
-  names.removeAt(bjarnibenIndex);
-  print(names);
-
-   */
-
-  List nums = [5,4,3,2,1,9,8,7,6];
-  List chars = ['a','b','d','g','f','e'];
+  myList.removeAt(5);
+  print(myList);
 
   // sort the list
-  print(chars);
-  nums.sort();
-  print(nums);
+  myList.sort();
+  print(myList);
 
   // remove between 2 indexes
-  nums.removeRange(2, 6);
-  print(nums);
-
+  myList.removeRange(0, 5);
+  print(myList);
 
   // remove last item
-  nums.removeLast();
-  print(nums);
-
+  myList.removeLast();
+  print(myList);
 }
