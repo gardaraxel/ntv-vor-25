@@ -21,7 +21,7 @@ void main() {
   myCompanyList.add(Bonus);
   myCompanyList.add(Kronan);
   myCompanyList.add(Steypustodin);
-
+ojkojk
 
   //Sækjum listan af names frá þessum file þarna methods.dart
   List<String> employees = getNamesList();
