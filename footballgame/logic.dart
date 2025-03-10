@@ -18,12 +18,27 @@ class footballGame {
     Random r1 = new Random();
     int randomNumber1 = r1.nextInt(11);
     int randomNumber2 = r1.nextInt(11);
+    int randomNumber3 = r1.nextInt(10);
     if(randomNumber1 == randomNumber2) {
       print("Það var mark!");
       if (randomNumber1 >= 6) {
-        this.homeTeamScore++;
+        print ("${this.homeTeam.players[randomNumber3+1].getName()} er kominn í færi");
+        if(didHeScore(this.homeTeam.players[randomNumber3+1]))
+          {
+            print("Og hann skorar!");
+            this.homeTeamScore++;
+          } else {
+              print("Hann klúðraði!");
+          }
       } else {
-        this.awayTeamScore++;
+        print ("${this.awayTeam.players[randomNumber3+1].getName()} er kominn í færi");
+        if(didHeScore(this.awayTeam.players[randomNumber3+1]))
+        {
+          print("Og hann skorar!");
+          this.awayTeamScore++;
+        } else {
+          print("Hann klúðraði!");
+        }
       }
     }
     print("${minute}:${homeTeam.name} ${homeTeamScore}-${awayTeamScore} ${awayTeam.name}");
@@ -58,4 +73,26 @@ class footballPlayer {
   String getName() {
     return "${firstName.substring(0,1)}. ${lastName}";
   }
+}
+bool didHeScore(footballPlayer p1) {
+  bool result = false;
+  Random random1 = new Random();
+  int odd = random1.nextInt(10);
+  int scoreodds = 0;
+  if(p1.position == "Goalkeeper") {
+    scoreodds = 1;
+  } else if(p1.position == "Defender") {
+    scoreodds = 3;
+  } else if(p1.position == "Midfielder"){
+    scoreodds = 7;
+  } else if(p1.position == "Forward") {
+    if (p1.lastName == "Núñez") {
+      scoreodds = 3;
+    }
+    scoreodds = 9;
+  }
+  if (scoreodds >= odd){
+    result = true;
+  }
+  return result;
 }
