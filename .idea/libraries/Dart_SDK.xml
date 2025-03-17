@@ -1,29 +1,29 @@
 <component name="libraryTable">
   <library name="Dart SDK">
     <CLASSES>
-      <root url="file://$USER_HOME$/sdks/dart-sdk-3.7.0/dart-sdk/lib/_internal" />
-      <root url="file://$USER_HOME$/sdks/dart-sdk-3.7.0/dart-sdk/lib/async" />
-      <root url="file://$USER_HOME$/sdks/dart-sdk-3.7.0/dart-sdk/lib/cli" />
-      <root url="file://$USER_HOME$/sdks/dart-sdk-3.7.0/dart-sdk/lib/collection" />
-      <root url="file://$USER_HOME$/sdks/dart-sdk-3.7.0/dart-sdk/lib/concurrent" />
-      <root url="file://$USER_HOME$/sdks/dart-sdk-3.7.0/dart-sdk/lib/convert" />
-      <root url="file://$USER_HOME$/sdks/dart-sdk-3.7.0/dart-sdk/lib/core" />
-      <root url="file://$USER_HOME$/sdks/dart-sdk-3.7.0/dart-sdk/lib/developer" />
-      <root url="file://$USER_HOME$/sdks/dart-sdk-3.7.0/dart-sdk/lib/ffi" />
-      <root url="file://$USER_HOME$/sdks/dart-sdk-3.7.0/dart-sdk/lib/html" />
-      <root url="file://$USER_HOME$/sdks/dart-sdk-3.7.0/dart-sdk/lib/indexed_db" />
-      <root url="file://$USER_HOME$/sdks/dart-sdk-3.7.0/dart-sdk/lib/io" />
-      <root url="file://$USER_HOME$/sdks/dart-sdk-3.7.0/dart-sdk/lib/isolate" />
-      <root url="file://$USER_HOME$/sdks/dart-sdk-3.7.0/dart-sdk/lib/js" />
-      <root url="file://$USER_HOME$/sdks/dart-sdk-3.7.0/dart-sdk/lib/js_interop" />
-      <root url="file://$USER_HOME$/sdks/dart-sdk-3.7.0/dart-sdk/lib/js_interop_unsafe" />
-      <root url="file://$USER_HOME$/sdks/dart-sdk-3.7.0/dart-sdk/lib/js_util" />
-      <root url="file://$USER_HOME$/sdks/dart-sdk-3.7.0/dart-sdk/lib/math" />
-      <root url="file://$USER_HOME$/sdks/dart-sdk-3.7.0/dart-sdk/lib/mirrors" />
-      <root url="file://$USER_HOME$/sdks/dart-sdk-3.7.0/dart-sdk/lib/svg" />
-      <root url="file://$USER_HOME$/sdks/dart-sdk-3.7.0/dart-sdk/lib/typed_data" />
-      <root url="file://$USER_HOME$/sdks/dart-sdk-3.7.0/dart-sdk/lib/web_audio" />
-      <root url="file://$USER_HOME$/sdks/dart-sdk-3.7.0/dart-sdk/lib/web_gl" />
+      <root url="file://$PROJECT_DIR$/../dart-sdks/dart-sdk-3.7.0/lib/_internal" />
+      <root url="file://$PROJECT_DIR$/../dart-sdks/dart-sdk-3.7.0/lib/async" />
+      <root url="file://$PROJECT_DIR$/../dart-sdks/dart-sdk-3.7.0/lib/cli" />
+      <root url="file://$PROJECT_DIR$/../dart-sdks/dart-sdk-3.7.0/lib/collection" />
+      <root url="file://$PROJECT_DIR$/../dart-sdks/dart-sdk-3.7.0/lib/concurrent" />
+      <root url="file://$PROJECT_DIR$/../dart-sdks/dart-sdk-3.7.0/lib/convert" />
+      <root url="file://$PROJECT_DIR$/../dart-sdks/dart-sdk-3.7.0/lib/core" />
+      <root url="file://$PROJECT_DIR$/../dart-sdks/dart-sdk-3.7.0/lib/developer" />
+      <root url="file://$PROJECT_DIR$/../dart-sdks/dart-sdk-3.7.0/lib/ffi" />
+      <root url="file://$PROJECT_DIR$/../dart-sdks/dart-sdk-3.7.0/lib/html" />
+      <root url="file://$PROJECT_DIR$/../dart-sdks/dart-sdk-3.7.0/lib/indexed_db" />
+      <root url="file://$PROJECT_DIR$/../dart-sdks/dart-sdk-3.7.0/lib/io" />
+      <root url="file://$PROJECT_DIR$/../dart-sdks/dart-sdk-3.7.0/lib/isolate" />
+      <root url="file://$PROJECT_DIR$/../dart-sdks/dart-sdk-3.7.0/lib/js" />
+      <root url="file://$PROJECT_DIR$/../dart-sdks/dart-sdk-3.7.0/lib/js_interop" />
+      <root url="file://$PROJECT_DIR$/../dart-sdks/dart-sdk-3.7.0/lib/js_interop_unsafe" />
+      <root url="file://$PROJECT_DIR$/../dart-sdks/dart-sdk-3.7.0/lib/js_util" />
+      <root url="file://$PROJECT_DIR$/../dart-sdks/dart-sdk-3.7.0/lib/math" />
+      <root url="file://$PROJECT_DIR$/../dart-sdks/dart-sdk-3.7.0/lib/mirrors" />
+      <root url="file://$PROJECT_DIR$/../dart-sdks/dart-sdk-3.7.0/lib/svg" />
+      <root url="file://$PROJECT_DIR$/../dart-sdks/dart-sdk-3.7.0/lib/typed_data" />
+      <root url="file://$PROJECT_DIR$/../dart-sdks/dart-sdk-3.7.0/lib/web_audio" />
+      <root url="file://$PROJECT_DIR$/../dart-sdks/dart-sdk-3.7.0/lib/web_gl" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
