@@ -33,11 +33,11 @@ void main() {
   ];
 
   // Creating football teams
-  footballTeam barcelona = footballTeam(name: "FC Barcelona", league: "La Liga", country: "Spain", players: barcelonaPlayers);
-  footballTeam liverpool = footballTeam(name: "Liverpool FC", league: "Premier League", country: "England", players: liverpoolPlayers);
+  footBallTeam barcelona = footBallTeam(name: "FC Barcelona", league: "La Liga", country: "Spain", players: barcelonaPlayers);
+  footBallTeam liverpool = footBallTeam(name: "Liverpool FC", league: "Premier League", country: "England", players: liverpoolPlayers);
 
   // Initializing a football game
-  footballGame match = footballGame(homeTeam: barcelona, awayTeam: liverpool);
+  footBallGame match = footBallGame(homeTeam: barcelona, awayTeam: liverpool);
 
   // Printing match details
   print("Match: ${match.homeTeam.name} vs ${match.awayTeam.name}");
@@ -47,8 +47,7 @@ void main() {
   liverpool.showTeam();
   barcelona.showTeam();
 
-  for (int i = 0;i <= 90; i++) {
-    match.playGame(i);
+  for(int i = 0;i <=90; i++){
+
   }
-  match.printMatchFacts();
 }
